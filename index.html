@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebooks - Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Additional design styling */
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar .nav-link {
+            color: white;
+        }
+        .navbar .nav-link:hover {
+            color: #f8f9fa;
+        }
+        .navbar-brand {
+            color: white;
+        }
+        .navbar-brand:hover {
+            color: #f8f9fa;
+        }
+        .jumbotron {
+            background-image: url('images/background.jpg'); /* Path to your background image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            min-height: 500px; /* Adjust height for more prominent look */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        .jumbotron h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .jumbotron p {
+            font-size: 1.5rem;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">EbookNest</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="genres.html">Genres</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <header class="jumbotron">
+        <h1 class="display-4">Welcome to EbookNest!</h1>
+        <p class="lead">Explore a world of knowledge and entertainment with our curated collection of eBooks.</p>
+        <a class="btn btn-primary btn-lg" href="books.html" role="button">Browse Books</a>
+    </header>
+
+    <!-- Main Content (Optional to add more) -->
+    <div class="container mt-5">
+        <h2 class="text-center">Why Choose EbookNest?</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <i class="fas fa-book fa-3x mb-3"></i>
+                <h4>Vast Collection</h4>
+                <p>Browse through thousands of titles, ranging from fiction to non-fiction, science to art, and more.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-download fa-3x mb-3"></i>
+                <h4>Easy Downloads</h4>
+                <p>Download eBooks with ease and read them on any device, anytime, anywhere.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-star fa-3x mb-3"></i>
+                <h4>Top-rated Picks</h4>
+                <p>Discover highly rated books by best-selling authors and emerging talents.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 EbookStore. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
